@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Demo</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Internal CSS -->
+    <style>
+        
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 20px;
+        }
+
+        .container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .inline-css {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Page Content -->
+
+    <!-- Inline CSS -->
+    <div style="color: blue; font-weight: bold;">
+        <p>This is a div with inline CSS.</p>
+    </div>
+
+    <!-- Internal CSS -->
+    <div class="container">
+        <p class="inline-css">This is a div with internal CSS.</p>
+    </div>
+
+    <!-- External CSS -->
+    <div class="external-css">
+        <p>This is a div with external CSS.</p>
+    </div>
+
+</body>
+</html>
